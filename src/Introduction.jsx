@@ -1,14 +1,17 @@
-import BrandName from "./BrandName";
+const name = "Ayomide";
+const age = 10;
 
 function Introduction() {
   return (
-    <div className="text-white text-center space-y-2 mt-10 max-w-2xl">
-      <BrandName />
-      <h1>This is our first react project</h1>
-      <p>
-        We installed Node JS, and created a vite-react project, and installed
-        tailwind as a dependency
-      </p>
+    <div className="text-2xl space-y-1 text-center">
+      <h1>Hello, {name}!</h1>
+      <p>You are {age} years old.</p>
+      <p>Next year you will be {age + 1}.</p>
+      <img
+        src="avatar.jpg"
+        className="size-16 rounded-full mx-auto"
+        alt="profile"
+      />
     </div>
   );
 }
