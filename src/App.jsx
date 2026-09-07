@@ -1,9 +1,11 @@
 import Card from "./components/Card";
 import ProfileCard from "./components/ProfileCard";
+import States from "./States";
 
 function App() {
   return (
     <div>
+      <States />
       {/* <div className="bg-slate-900  text-white min-h-screen flex flex-row gap-20 items-center justify-center">
         <h1 className="text-white font-bold text-4xl">
           Hello React + Tailwind 🚀
@@ -15,7 +17,7 @@ function App() {
         <Introduction />
         <div />
       </div> */}
-      <div className="min-h-screen bg-slate-100 p-10 flex gap-6 flex-wrap">
+      {/* <div className="min-h-screen bg-slate-100 p-10 flex gap-6 flex-wrap">
         <ProfileCard
           name="Ayomide"
           role="Full-Stack Developer"
@@ -38,7 +40,7 @@ function App() {
           bio="Turning user problems into product solutions."
           avatarClass="bg-red-500"
         />
-      </div>
+      </div> */}
     </div>
   );
 }
