@@ -1,11 +1,13 @@
-import Card from "./components/Card";
-import ProfileCard from "./components/ProfileCard";
-import States from "./States";
+import UserList from "./components/UserList";
 
 function App() {
   return (
-    <div>
-      <States />
+    <div className="h-screen flex flex-col items-center justify-center">
+      {/* <States /> */}
+      {/* <Students /> */}
+      {/* <Items /> */}
+      {/* <Counter /> */}
+      <UserList />
       {/* <div className="bg-slate-900  text-white min-h-screen flex flex-row gap-20 items-center justify-center">
         <h1 className="text-white font-bold text-4xl">
           Hello React + Tailwind 🚀
