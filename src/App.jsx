@@ -1,4 +1,4 @@
-import UserList from "./components/UserList";
+import ProfileFormWithRHF from "./components/ProfileFormWithRHF";
 
 function App() {
   return (
@@ -7,7 +7,9 @@ function App() {
       {/* <Students /> */}
       {/* <Items /> */}
       {/* <Counter /> */}
-      <UserList />
+      {/* <UserList /> */}
+      {/* <ProfileForm /> */}
+      <ProfileFormWithRHF />
       {/* <div className="bg-slate-900  text-white min-h-screen flex flex-row gap-20 items-center justify-center">
         <h1 className="text-white font-bold text-4xl">
           Hello React + Tailwind 🚀
